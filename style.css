@@ -15,6 +15,7 @@ body{
 body{
   display: grid;
   place-items: center;
+  
 }
 
 main{
@@ -86,4 +87,11 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+}
+
+#img:hover {
+  top:-2px;
+  box-shadow:0 2px 2px #666;
+  width: 3.1rem;
+  transition: .2s;
 }
